@@ -15,7 +15,8 @@ const defaultOptions = {
     selectionIndicator: false, // 是否显示选取指示器组件 
     sceneModePicker: false, // 是否显示3D/2D选择器
     imageryProvider: new Cesium.UrlTemplateImageryProvider({
-        url: 'http://www.google.cn/maps/vt?lyrs=s&x={x}&y={y}&z={z}',
+        // url: 'http://www.google.cn/maps/vt?lyrs=s&x={x}&y={y}&z={z}',
+        url: 'http://t0.tianditu.gov.cn/DataServer?T=img_w&x={x}&y={y}&l={z}&tk=7f5ef3d5cd443f952707543bfb1f827b',
         tilingScheme: new Cesium.WebMercatorTilingScheme(),
         minimumLevel: 1,
         maximumLevel: 20
